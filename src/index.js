@@ -3,18 +3,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-ReactDOM.render(
-  <div>
-    <Heading></Heading>
-    <ul>
-      <li>Marketplace</li>
-      <li>Insurance</li>
-      <li>Instamoov</li>
-    </ul>
-  </div>,
-  document.getElementById("intro")
-);
-
 // Creating functions!
 // const currentTime = new Date().getHours();
 
