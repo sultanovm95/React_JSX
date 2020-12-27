@@ -3,6 +3,77 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
+ReactDOM.render(
+  <div>
+    <Heading></Heading>
+    <ul>
+      <li>Marketplace</li>
+      <li>Insurance</li>
+      <li>Instamoov</li>
+    </ul>
+  </div>,
+  document.getElementById("intro")
+);
+
+// Creating functions!
+// const currentTime = new Date().getHours();
+
+// function time(time) {
+//   if (time >= 18) {
+//     return "Good evening";
+//   } else if (time >= 12) {
+//     return "Good Afternoon";
+//   } else if (time >= 0 && time < 12) {
+//     return "Good Morning";
+//   }
+// }
+
+// let greeting;
+
+// const customStyle = {
+//   color: ""
+// };
+
+// if (currentTime < 12) {
+//   greeting = "Good Morning";
+//   customStyle.color = "blue";
+// } else if (currentTime < 18) {
+//   greeting = "Good Afternoon";
+//   customStyle.color = "Yellow";
+// } else {
+//   greeting = "Good Evening";
+//   customStyle.color = "Dark Blue";
+// }
+
+// ReactDOM.render(
+//   <div>
+//     <h1 className="heading" style={customStyle}>
+//       Hello Time is: {time(currentTime)}
+//     </h1>
+//   </div>,
+//   document.getElementById("root")
+// );
+
+// adding style v2
+// const customStyle = {
+//   color: "red",
+//   fontSize: "20px",
+//   border: "1px solid black"
+// };
+
+// customStyle.color = "blue";
+
+// ReactDOM.render(
+//   <h1 style={customStyle}>Hello World!</h1>,
+//   document.getElementById("root")
+//   );
+
+// adding style
+// ReactDOM.render(
+//   <h1 style={{color: "red"}}>Hello World!</h1>,
+//   document.getElementById("root")
+// )
+
 // adding styles
 // contentEditable allows to edit text inside page
 // ReactDOM.render(
